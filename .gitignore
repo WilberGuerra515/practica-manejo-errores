@@ -1,0 +1,21 @@
+# Compilación
+build/
+*.o
+*.obj
+*.exe
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Datos generados en ejecución
+sistema_alumnos/data/*.bak
+sistema_alumnos/logs/*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
